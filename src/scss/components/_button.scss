@@ -1,0 +1,28 @@
+.btn {
+    text-transform: none;
+    font-weight: 600;
+    border-radius: 15px;
+    &-primary {
+        background-color: $c_green;
+        border-color: $c_green;
+        color: white;
+    }
+    &-secondary {
+        background-color: $c_grey;
+        border-color: $c_grey;
+        color: $c_body;
+        &:hover, &:focus {
+            background-color: $c_body;
+            border-color: $c_body;
+            color:white;
+        }
+    }
+    &.no-rounded-l {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+    }
+    &.no-rounded-r {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+    }
+}

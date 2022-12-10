@@ -1,7 +1,18 @@
 body {
     font-family: 'Work Sans', sans-serif;
+    margin: 24px;
 }
-
 h1, h2, h3 {
     font-family: $display-font;
+}
+h1 {
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+h3 {
+    font-size: 1.15rem;
 }
